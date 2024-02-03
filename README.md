@@ -10,3 +10,9 @@
 Kamol95/Kamol95 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+users = ['alisher1983','aziza','yasina', 'umar']
+login = input("Yangi login tanlang:").lower()
+if login in users:
+    print('Login band, yangi login tanlang!')
+else:
+    print("Xush kelibsiz!")
